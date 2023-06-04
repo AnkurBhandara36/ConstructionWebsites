@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    /* background-color: red; */
+}
+
+/* 
+header {
+    width: 100%;
+    height: 20vh;
+} */
+
+header i {
+    color: #FF5E15;
+}
+
+.navbarr {
+    background-color: #FF5E15 !important;
+
+}
+
+.font-color {
+    color: #FF5E15;
+}
+
+.back-color {
+    background-color: #FF5E15;
+}
+
+
+.service img {
+    width: 34%;
+}
+
+#navbarNav {
+    margin-left: 142px !important;
+}
+
+#navbarNav ul li {
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 900;
+    font-size: 16px;
+    color: white !important;
+    line-height: 27.2px;
+    padding: 5px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+#navbarNav a:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+    color: black !important;
+}
+
+.hero-section img {
+    height: 75vh !important;
+    width: 100%;
+}
+
+.industry {
+    height: 72vh;
+}
+
+.industries h5 {
+    font-family: Oswald sans-serif;
+    line-height: 24.96px;
+    font-weight: 300;
+
+    font-size: 24.8px !important;
+}
+
+.industries p {
+    font-family: 'Oswald', sans-serif !important;
+    line-height: 38.4px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 24px;
+    font-size: 32px !important;
+    padding: 0px;
+    font-weight: 300;
+}
+
+.industries span {
+    color: black;
+}
+
+.design h3 {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 24.8px;
+    font-weight: 300;
+    vertical-align: baseline;
+    line-height: 24.8px;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(255, 94, 21);
+    text-align: left;
+}
+
+.design h2 {
+    font-family: 'Oswald', sans-serif !important;
+    margin: 25px 0;
+    font-size: 32px;
+    line-height: 38.2px;
+    /* font-weight: 300; */
+}
+
+
+.service {
+    position: relative;
+}
+
+.service div h4 {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 400;
+}
+
+.service div p {
+    font-size: 15px;
+    line-height: 35.5px;
+    font-weight: 500;
+
+
+}
+
+.design {
+    background-color: #09162A;
+    height: 95vh !important;
+    text-align: left;
+    /* text-align: justify; */
+    padding: 15px;
+
+
+}
+
+.designImg {
+    margin-top: -42px !important;
+    height: 80vh !important;
+}
+
+.design-img {
+    width: 30%;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: #FF5E15 !important;
+}
+
+.quote {
+    background-color: black;
+    height: 80vh;
+    width: 68%;
+    margin: 20px 90px !important;
+}
+
+.quote h3,
+.quote h2 {
+    margin-left: 65px !important;
+}
+
+
+.quote h3 {
+    /* font-family:  'Oswald', sans-serif; */
+    font-size: 24.8px;
+    line-height: 24.94px;
+    font-weight: 300;
+
+}
+
+.quote h2 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 31.8px;
+    line-height: 34.94px;
+    /* font-weight: 300; */
+}
+
+.form {
+
+    margin-top: 30px !important;
+}
+
+.form textarea {
+    margin-top: 50px !important;
+}
+
+textarea,
+input {
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.form {
+    margin: 15px 20px !important;
+}
+
+.textArea {
+    margin-top: 30px !important;
+    border: 2px solid #FFF;
+}
+
+.message {
+    border-radius: 10px;
+    margin-left: -20px !important;
+    border: 2px solid #FF5E15;
+}
+
+.projects {
+    min-height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #09162A;
+}
+
+.wrapper i {
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    line-height: 48px;
+    background: #FFF;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper i:first-child {
+    left: 123px;
+
+}
+
+.wrapper i:last-child {
+    right: 113px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    top: 120px;
+}
+
+
+.wrapper .caraousel {
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.caraousel img {
+    font-size: 0px;
+    height: 520px;
+    margin-left: 15px;
+    object-fit: cover;
+    width: calc(100%/3);
+}
+
+.caraousel img:first-child {
+    margin-left: 10px;
+}
+
+.test {
+
+    padding: 160px 0px;
+    padding-bottom: 70px;
+}
+
+.test img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.test h3 {
+    font-family: Oswald sans-serif;
+    font-size: 20.8px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.test h2 {
+    font-family: Oswald sans-serif;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 300;
+
+
+}
+
+
+.blog {
+    background-color: #F8F9FA;
+    height: 90vh;
+}
+
+.blog img:hover {
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+
+.newsletter {
+    margin-top: 0px !important;
+    background-color: #FF5E15;
+    color: #FFF;
+    height: 35vh;
+    padding: 20px 5px;
+    font-family: Oswald sans-serif;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.sub-btn {
+    background-color: black !important;
+    color: #FFF !important;
+}
+
+.newsletter h5 {
+    font-size: 30px !important;
+}
+
+.newsletter p {
+    font-size: 24px;
+}
+
+
+.news1 {
+    margin-left: -140px;
+}
+
+.news2 {
+    margin-left: 140px;
+}
+
+.left p:hover {
+    transform: translateX(12px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer,
+footer {
+    background-color: black;
+
+}
+
+.main {
+    margin: 0 80px !important;
+}
+
+.main h5 {
+    border-bottom: 5px solid #FF5E15;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:576px) {
+
+
+    header {
+        display: none;
+    }
+
+    .header img {
+        width: 120% !important;
+    }
+
+    .service div {
+        margin: 10px 18px 0px 0px;
+
+    }
+
+    .designImg {
+        width: 95%;
+        margin: 0 20px;
+
+
+    }
+
+    .design-font {
+        margin: 0 15px;
+    }
+
+
+    .service div {
+        margin-top: -13px !important;
+    }
+
+
+    .design {
+        height: 158vh !important;
+    }
+
+    .request {
+        height: 188vh !important;
+    }
+
+    .industry {
+        height: 155vh !important;
+        /* margin-bottom: 50px!important; */
+    }
+
+
+    .quote h3,
+    .quote h2 {
+        margin-left: 70px !important;
+    }
+
+    .boxs {
+        font-size: 10px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .boxs h5 {
+        font-size: 15px;
+    }
+
+    .boxes {
+        width: 90%;
+        margin: 0 10px;
+        padding: 0 5px;
+    }
+
+    .request img {
+        width: 85%;
+    }
+
+    input {
+        margin-top: 15px;
+    }
+
+    .phone,
+    .subject {
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .message {
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+
+    .caraousel img {
+
+        width: calc(100%/1);
+
+        margin: 0 15px;
+        /* margin: 10px; */
+    }
+
+    .wrapper i:first-child {
+        left: 20px;
+
+    }
+
+    .wrapper i:last-child {
+        right: 20px;
+    }
+
+    .newsletter {
+        background-color: #FF5E15;
+        color: #FFF;
+
+        margin-top: 1200px;
+        height: 40vh;
+        text-align: center;
+    }
+
+    .newsletter h5 {
+        margin-left: 20px;
+    }
+
+    .newsletter p {
+        margin-left: 28px;
+        text-align: center;
+    }
+
+    .form-control input {
+        display: block;
+    }
+
+    .newsletter .ss {
+        width: 60%;
+        text-align: center;
+    }
+
+    textarea {
+        display: block;
+        margin-top: 20px !important;
+    }
+
+    .quote {
+        height: 78vh !important;
+        width: 100%;
+        margin-left: -25px !important;
+        padding-bottom: 20px;
+        
+    }
+
+    .request {
+        height: 190vh !important;
+    }
+
+    .blogs {
+        margin: 0 2px !important;
+
+    }
+
+    .blog {
+        height: 150vh !important;
+        border: 2px solid red;
+    }
+
+    .test {
+        text-align: center;
+    }
+
+    .newsletter h5 {
+        margin-left: 120px !important;
+    }
+
+    .newsletter p {
+        margin-left: 120px;
+    }
+
+    .text-field {
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (min-width:460px) and (max-width:576px) {
+    .industry {
+        height: 175vh !important;
+    }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:420px) {
+    .newsletter {
+        height: 55vh;
+    }
+
+}
+
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+
+    header {
+        display: none !important;
+    }
+
+    .design {
+        height: 180vh !important;
+    }
+
+    .design-font {
+        margin: 0 100px;
+        height: 46vh;
+    }
+
+    .request {
+        height: 160vh !important;
+    }
+
+    .requestImg img {
+        margin-left: 50px !important;
+    }
+
+    .industry {
+        height: 212vh !important;
+    }
+
+    .quote {
+        width: 100%;
+        height: 86vh;
+        margin-left: -25px !important;
+    }
+
+    .blog {
+        height: 230vh;
+    }
+
+    textarea {
+        margin-top: 20px !important;
+    }
+
+    #basic-addon2 {
+        margin-top: 20px !important;
+    }
+
+    .test {
+        text-align: center;
+    }
+
+    .newsletter {
+        height: 50vh;
+    }
+
+    .news2 {
+        /* width: 50%; */
+        display: none !important;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+
+
+    .header {
+        display: none;
+    }
+
+    .head-para img {
+        display: block !important;
+    }
+
+    .quote {
+        height: 76vh;
+    }
+
+    .industry {
+        height: 252vh !important;
+    }
+
+    header {
+        display: block;
+    }
+
+    nav {
+        background-color: #FF5E15 !important;
+    }
+
+    .hero-section img {
+        height: 85vh !important;
+    }
+
+    .request {
+        height: 172vh !important;
+    }
+
+    .head-para img {
+        display: none;
+    }
+
+
+    .design {
+        background-color: #09162A;
+        height: 175vh !important;
+
+    }
+
+    .blog {
+        text-align: center;
+        height: 240vh;
+    }
+
+    .blog img {
+        width: 80%;
+    }
+
+    .test {
+        text-align: center;
+    }
+
+    .design-font {
+        margin-left: 245px;
+    }
+
+    .design1 img {
+        margin-left: 230px;
+    }
+
+    .requestImg img {
+        margin-left: 260px !important;
+    }
+
+    .quote {
+        margin-left: 120px !important;
+    }
+
+    .newsletter {
+        height: 40vh;
+    }
+
+    .main {
+        justify-content: center !important;
+    }
+
+}
+
+@media (min-width:992px) {
+    .blog {
+        text-align: center;
+        height: 80vh;
+    }
+}
